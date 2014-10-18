@@ -1,5 +1,5 @@
 var blackOverlay = document.createElement('div'),  overlayOn = false;
-blackOverlay.setAttribute('id','overlay');
+blackOverlay.setAttribute('id','blackOverlay');
 blackOverlay.style.backgroundColor = "black";
 blackOverlay.style.width           = "100%";
 blackOverlay.style.height          = "100%";
