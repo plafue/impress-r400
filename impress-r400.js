@@ -9,7 +9,7 @@ document.addEventListener('keyup',
   function(e) {
       if (e.keyCode == 66) {
         (overlayOn) ? blackOverlay.remove() : document.body.appendChild(blackOverlay);
-        overlayOn = !overlayOn ;
+        overlayOn = !overlayOn;
      }
   }
 , false);
